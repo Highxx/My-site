@@ -2,7 +2,7 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="light-mode.css" id="theme">
     <title>Портфолио Junior верстальщика</title>
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
   </head>
@@ -12,8 +12,9 @@
   <div class="container">
     <a class="header-email" href="mailto:Justla1993@gmail.com">Justla1993@gmail.com</a>
     <a class="header-phone" href="tel:+79101967376">+7 910 196 73 76</a>
-  </div>
-    </header>
+  	<button href="" class="gradient-button" id="switchMode">Изменить тему</button>
+  	</div>
+  </header>
 
     <section class="hero-image">
 	<div class="container">
@@ -32,6 +33,15 @@
       <p>Текст с парой слов о себе.</p>
       <h3>Чем могу быть полезен</h3>
       <p>Текст о том, чем могу быть полезен.</p>
+	<div class="skills">
+		<h3>Мои навыки</h3>
+			<dl class="skills-list">
+    			<dt class="skill-html">HTML</dt>
+    			<dd class="level"><div style="width: 60%;">60%</div></dd>
+    			<dt class="skill-css">CSS</dt>
+    			<dd class="level"><div style="width: 40%;">40%</div></dd>
+  </dl>
+	</div>
 	</div
     </section>
 
@@ -56,5 +66,6 @@
 		<a class="footer-phone" href="tel:+79101967376">+7 910 196 73 76</a>
 		</div>
 	</footer>
+	<script src="script.js"></script>
   </body>
 </html>
